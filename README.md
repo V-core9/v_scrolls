@@ -1,1 +1,1 @@
-# DemonHunter.js
+# ⌬ DemonHunter.js [DH.js]
