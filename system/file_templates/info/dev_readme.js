@@ -6,9 +6,9 @@ const full_description   = require('../../readme_files/readme/full_description')
 const advanced_usage   = require('../../readme_files/readme/advanced_usage')
 const development   = require('../../readme_files/readme/development')
 
-const main_readme_template = {
-    file_name: "README.md",
-    description: "Will print projects root readme file in order it is sorded in layout part of this object",
+const dev_readme_template = {
+    file_name: "DEV_README.md",
+    description: "DEV_README file layout",
     layout: [
         short_description,
         folder_structure,
@@ -21,4 +21,4 @@ const main_readme_template = {
     output: "./"
 }
 
-module.exports = main_readme_template
+module.exports = dev_readme_template

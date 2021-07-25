@@ -1,7 +1,7 @@
 // Getting Main README.md File Template
 const main_readme_template = require('../file_templates/info/readme')
 // Getting DEV_README.md Template
-const dev_readme_template = require('../file_templates/info/development')
+const dev_readme_template = require('../file_templates/info/dev_readme')
 
 // files_export_list is an ARRAY of files to handle
 // Order does not matter since it's gonna gather data
