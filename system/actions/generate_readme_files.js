@@ -1,6 +1,6 @@
-const files_export_list = require('../config/docs_export')
+const files_export_list = require('../config/readme_files')
 const { fileSave } = require('../v_node_modules/Awesome-Node.js-Helpout/samples/fileSave')
-const generated_notice_readme = require('../info_pages/helpers/generated_notice')
+const generated_notice_readme = require('../readme_files/helpers/generated_notice')
 
 console.log("FILES FOR EXPORTING: ")
 

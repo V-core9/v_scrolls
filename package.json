@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "make_docs": "node system/actions/generate_documentation.js",
+    "make_docs": "node system/actions/generate_readme_files.js",
     "_setup_": "bash -c \" npm run setup_anhm \" && echo \"Done Setup of V_DHjs\" ",
     "setup_anhm": "bash -c \"rm -r './system/v_node_modules/Awesome-Node.js-Helpout' -f ; echo 'Cloning Awesome Node Helpout Modules into system' ; cd ./system/v_node_modules/ ; git clone https://github.com/V-tech-tools/Awesome-Node.js-Helpout.git \" "
   },
