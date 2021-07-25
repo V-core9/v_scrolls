@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/V-tech-tools/DemonHunter.js/issues"
   },
-  "homepage": "https://github.com/V-tech-tools/DemonHunter.js#readme"
+  "homepage": "https://github.com/V-tech-tools/DemonHunter.js#readme",
+  "dependencies": {
+    "date-and-time": "^1.0.1"
+  }
 }
