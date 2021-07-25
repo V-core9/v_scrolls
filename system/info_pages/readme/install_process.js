@@ -1,7 +1,11 @@
 const install_process = {
-    title : "Project Folders Structure Info",
-    content: `Made to help out hunting ghost bugs in front and backend.
-                Currently in state of organization of files and building up the idea what else to include`
+    title : "Install Process:",
+    content: `Hopefully very short install process. Build mostly requires
+you to run a single command which will do the rest.
+    
+    npm run _setup    
+        
+After this is complete you should be able to run this.`
 }
 
 module.exports = install_process
