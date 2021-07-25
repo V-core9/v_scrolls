@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Awesome Node.js Helpout Modules Repo Clone
+./system/v_node_modules/Awesome-Node.js-Helpout
+system/v_node_modules/Awesome-Node.js-Helpout/*
+system/v_node_modules/Awesome-Node.js-Helpout/

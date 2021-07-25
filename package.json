@@ -1,0 +1,24 @@
+{
+  "name": "V_DH",
+  "version": "1.0.0",
+  "description": "Welcome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup_anhm": "bash -c \"echo 'Cloning Awesome Node Helpout Modules into system' ; cd ./system/v_node_modules/ ; git clone https://github.com/V-tech-tools/Awesome-Node.js-Helpout.git \" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-tech-tools/DemonHunter.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-tech-tools/DemonHunter.js/issues"
+  },
+  "homepage": "https://github.com/V-tech-tools/DemonHunter.js#readme",
+  "dependencies": {
+    "date-and-time": "^1.0.1"
+  }
+}
