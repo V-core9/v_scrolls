@@ -1,53 +1,73 @@
-Section Title: 
-Short Description 
+### Title: 
+ ## **Short Description YYYYS** 
 
-Section Description: 
+### **Description:**  
 Made to help out hunting ghost bugs in front and backend.
                 Currently in state of organization of files and building up the idea what else to include 
 
-Section Title: 
-Project Folders Structure Info 
+##  
+  ## 
+### Title: 
+ ## **Folder Structure** 
 
-Section Description: 
+### **Description:**  
 Made to help out hunting ghost bugs in front and backend.
                 Currently in state of organization of files and building up the idea what else to include 
 
-Section Title: 
-Project Folders Structure Info 
+##  
+  ## 
+### Title: 
+ ## **Install Process:** 
 
-Section Description: 
+### **Description:**  
+Hopefully very short install process. Build mostly requires
+you to run a single command which will do the rest.
+    
+    npm run _setup    
+        
+After this is complete you should be able to run this. 
+
+##  
+  ## 
+### Title: 
+ ## **How to use?** 
+
+### **Description:**  
 Made to help out hunting ghost bugs in front and backend.
                 Currently in state of organization of files and building up the idea what else to include 
 
-Section Title: 
-Project Folders Structure Info 
+##  
+  ## 
+### Title: 
+ ## **Full Description of DemonHunter.js** 
 
-Section Description: 
+### **Description:**  
+Made to help out hunting ghost bugs in front and backend.
+                Currently in state of organization of files and building up the idea what else to includeMade to help out hunting ghost bugs in front and backend.
+                Currently in state of organization of files and building up the idea what else to includeMade to help out hunting ghost bugs in front and backend.
+                Currently in state of organization of files and building up the idea what else to include 
+
+##  
+  ## 
+### Title: 
+ ## **Advanced DemonHunter Setup and Usage** 
+
+### **Description:**  
 Made to help out hunting ghost bugs in front and backend.
                 Currently in state of organization of files and building up the idea what else to include 
 
-Section Title: 
-Project Folders Structure Info 
+##  
+  ## 
+### Title: 
+ ## **Into Development Process** 
 
-Section Description: 
+### **Description:**  
 Made to help out hunting ghost bugs in front and backend.
                 Currently in state of organization of files and building up the idea what else to include 
 
-Section Title: 
-Project Folders Structure Info 
-
-Section Description: 
-Made to help out hunting ghost bugs in front and backend.
-                Currently in state of organization of files and building up the idea what else to include 
-
-Section Title: 
-Project Folders Structure Info 
-
-Section Description: 
-Made to help out hunting ghost bugs in front and backend.
-                Currently in state of organization of files and building up the idea what else to include 
-
+##  
+  ## 
 >### <!>->  **GENERATED FILE NOTICE**  <-<!>  
 > This File Was Generate Using V_Tools/DemonHunter.js Documentation Generating Solution.   
 >>#### WARRNING: Any Edits Done To Generated Files Will Be Overwritten Next Time These Files Get Re-Generated!    
-> Last Updated: 2021/07/25 09:08:37 
+> Last Updated: 2021/07/25 10:41:54 
