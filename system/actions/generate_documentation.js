@@ -40,7 +40,7 @@ files_export_list.forEach(fileDoc => {
   file_content += `${vMD.h1(vMD.bold(fileDoc.scroll_title))} \n\n> **Description**: _${fileDoc.scroll_info}_  \n#   \n`;
 
   fileDoc.layout.forEach(section => {
-    file_content += `${vMD.h2(vMD.bold((typeof section.icon !== "undefined") ? section.icon + " " + section.title : section.title))}\n ${vMD.bold("Description")}:    \n${section.content}    \n\n`;
+    file_content += `${vMD.h2(vMD.bold((typeof section.icon !== "undefined") ? section.icon + " " + section.title : section.title))}\n${section.content}    \n\n`;
 
     file_content += `---\n`;
   })
