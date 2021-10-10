@@ -5,7 +5,7 @@ const fileSave = (fileLoc, fileContent) => {
     if (err) {
       return console.log(err);
     }
-    console.log(data);
+    //console.log(data);
   });
 };
 module.exports = {

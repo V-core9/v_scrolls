@@ -1,7 +1,7 @@
-# **🧾 V_Scrolls_Generator - README.md **    
+# **🧾 V_Scrolls_Generator - README.md**    
  
 
-> **Description**: _Will print projects root readme file in order it is sorded in layout part of this object_  
+> **Description**: _Basically generates MD files...so a Markdown generator...pack data where ever you want and just use this to organize it how file will be printed._  
 #   
 ## **💭 Short Description**    
 
@@ -75,4 +75,4 @@ Made to help out hunting ghost bugs in front and backend. Currently in state of 
 > ⛔ Any Edits Done To Generated Files Will Be Overwritten Next Time These Files Get Re-Generated!  
 >  
 > _Made 💖 using [V_Scrolls_Generator]("#")_      
-> Last Updated:  2021/10/10 07:35:24 
+> Last Updated:  2021/10/10 07:52:44 

@@ -29,10 +29,10 @@ const vMD = {
   },
 }
 
-console.log("FILES FOR EXPORTING: ")
+//console.log("FILES FOR EXPORTING: ")
 
 
-console.log(files_export_list)
+//console.log(files_export_list)
 
 files_export_list.forEach(fileDoc => {
   var file_content = ""
@@ -51,7 +51,7 @@ files_export_list.forEach(fileDoc => {
 
     file_content += `${generated_notice_readme.title} \n${generated_notice_readme.content}  \n> Last Updated:  ${date.format(now, 'YYYY/MM/DD HH:mm:ss')} \n`;
 
-    console.log("Saving content of a " + fileDoc.file_name);
+    //console.log("Saving content of a " + fileDoc.file_name);
     fileSave(fileDoc.output + fileDoc.file_name, file_content);
 
   });
