@@ -7,8 +7,9 @@ const advanced_usage   = require('../../readme_files/readme/advanced_usage')
 const development   = require('../../readme_files/readme/development')
 
 const main_readme_template = {
-    file_name: "README.md",
-    description: "Will print projects root readme file in order it is sorded in layout part of this object",
+  file_name: "README.md",
+  scroll_title: "🧾 V_Scrolls_Generator - README.md ",
+  scroll_info: "Will print projects root readme file in order it is sorded in layout part of this object",
     layout: [
         short_description,
         folder_structure,
