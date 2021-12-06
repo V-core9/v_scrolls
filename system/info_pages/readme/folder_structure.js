@@ -1,4 +1,4 @@
-const folder_structure = {
+module.exports =  {
   icon: "📁",
   title: "Project Folders Structure Info",
   content: `Made to help out hunting ghost bugs in front and backend.
@@ -14,6 +14,4 @@ const folder_structure = {
     📁 system / file_templates /
     📁 system / info_pages /
     📁 system / v_modules /     `
-}
-
-module.exports = folder_structure
+};

@@ -68,4 +68,4 @@ Made to help out hunting ghost bugs in front and backend. Currently in state of 
 > ⛔ Any Edits Done To Generated Files Will Be Overwritten Next Time These Files Get Re-Generated!  
 >  
 > _Made 💖 using [V_Scrolls_Generator]("#")_      
-> Last Updated:  2021/10/10 07:55:08 
+> Last Updated:  2021/12/06 20:45:18 

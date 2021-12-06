@@ -1,6 +1,7 @@
-const files_export_list = require('../config/docs_export')
-const { fileSave } = require('../v__modules/v_file_save')
-const generated_notice_readme = require('../info_pages/helpers/generated_notice')
+
+const v_fs = require('v_file_system');
+const generated_notice_readme = require('../info_pages/helpers/generated_notice');
+const date = require('date-and-time');
 
 const vMD = {
   h1(txt) {
@@ -22,36 +23,51 @@ const vMD = {
     return this.h2(`Title: **${txt}**    \n`);
   },
   bold(txt) {
-    return `**${txt}**`
+    return `**${txt}**`;
   },
   italic(txt) {
-    return `_${txt}_`
+    return `_${txt}_`;
   },
-}
+};
 
-//console.log("FILES FOR EXPORTING: ")
+const v_docs_gen = {
+
+  $_config: null,
+
+  config($_config) {
+    if ($_config === undefined) return false;
+    v_docs_gen.$_config = $_config;
+  },
+  generate: async ($_config) => {
+    console.log($_config);
+    if (v_docs_gen.$_config === null) {
+      if ($_config === null) return false;
+      v_docs_gen.config($_config);
+    }
+
+    console.log(v_docs_gen);
+    v_docs_gen.$_config.forEach(async (fileDoc) => {
+      var file_content = "";
+
+      file_content += `${vMD.h1(vMD.bold(fileDoc.scroll_title))} \n\n> **Description**: _${fileDoc.scroll_info}_  \n#   \n`;
+
+      fileDoc.layout.forEach(section => {
+        file_content += `${vMD.h2(vMD.bold((typeof section.icon !== "undefined") ? section.icon + " " + section.title : section.title))}\n${section.content}    \n\n`;
+
+        file_content += `---\n`;
+      });
 
 
-//console.log(files_export_list)
+      const now = new Date();
 
-files_export_list.forEach(fileDoc => {
-  var file_content = ""
+      file_content += `${generated_notice_readme.title} \n${generated_notice_readme.content}  \n> Last Updated:  ${date.format(now, 'YYYY/MM/DD HH:mm:ss')} \n`;
 
-  file_content += `${vMD.h1(vMD.bold(fileDoc.scroll_title))} \n\n> **Description**: _${fileDoc.scroll_info}_  \n#   \n`;
+      const result_save = await v_fs.write(fileDoc.output + fileDoc.file_name, file_content);
 
-  fileDoc.layout.forEach(section => {
-    file_content += `${vMD.h2(vMD.bold((typeof section.icon !== "undefined") ? section.icon + " " + section.title : section.title))}\n${section.content}    \n\n`;
+      console.log("\n📑 " + fileDoc.file_name + " \n" + (result_save === true ? "✅ SAVED" : "❌ FAILED"));
+    });
+  },
+};
 
-    file_content += `---\n`;
-  })
 
-    //console.log(file_content)
-    const date = require('date-and-time');
-    const now = new Date();
-
-    file_content += `${generated_notice_readme.title} \n${generated_notice_readme.content}  \n> Last Updated:  ${date.format(now, 'YYYY/MM/DD HH:mm:ss')} \n`;
-
-    //console.log("Saving content of a " + fileDoc.file_name);
-    fileSave(fileDoc.output + fileDoc.file_name, file_content);
-
-  });
+module.exports = v_docs_gen;
