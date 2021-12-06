@@ -8,7 +8,7 @@ const development = require('../../info_pages/readme/development');
 
 const main_readme_template = {
   file_name: "README.md",
-  scroll_title: "🧾 V_Scrolls_Generator - README.md",
+  scroll_title: "🧾 V_Scrolls - README.md",
   scroll_info: "Basically generates MD files...so a Markdown generator...pack data where ever you want and just use this to organize it how file will be printed.",
     layout: [
         short_description,

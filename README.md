@@ -1,4 +1,4 @@
-# **🧾 V_Scrolls_Generator - README.md**    
+# **🧾 V_Scrolls - README.md**    
  
 
  **Description**: _Basically generates MD files...so a Markdown generator...pack data where ever you want and just use this to organize it how file will be printed._  
@@ -79,4 +79,4 @@ SOON...
 > ⛔ Any Edits Done To Generated Files Will Be Overwritten Next Time These Files Get Re-Generated!  
 >  
 > _Made 💖 using [V_Scrolls_Generator]("#")_      
-> Last Updated:  2021/12/06 21:17:15 
+> Last Updated:  2021/12/06 21:18:47 
