@@ -1,6 +1,6 @@
 
-const v_doc_gen = require('./system/actions/generate_documentation');
+const v_scrolls = require('./index');
 
 const files_export_list = require('./system/config/docs_export');
 
-v_doc_gen.generate(files_export_list);
+v_scrolls.generate(files_export_list);

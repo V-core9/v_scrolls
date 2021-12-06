@@ -1,5 +1,5 @@
 {
-  "name": "v_docs_gen",
+  "name": "v_scrolls",
   "version": "0.1.12",
   "description": "Welcome",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/V-tech-tools/v_docs_gen.git"
+    "url": "git+https://github.com/V-tech-tools/v_scrolls.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/V-tech-tools/v_docs_gen/issues"
+    "url": "https://github.com/V-tech-tools/v_scrolls/issues"
   },
-  "homepage": "https://github.com/V-tech-tools/v_docs_gen#readme",
+  "homepage": "https://github.com/V-tech-tools/v_scrolls#readme",
   "dependencies": {
     "date-and-time": "^1.0.1",
     "v_file_system": "^1.0.3"

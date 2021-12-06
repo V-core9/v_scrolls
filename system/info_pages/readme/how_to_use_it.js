@@ -1,7 +1,17 @@
 module.exports = {
   icon: "⚡",
   title: "How to actually use it ?",
-  content: `Made to help out hunting ghost bugs in front and backend. Currently in state of organization of files and building up the idea what else to includeMade to help out hunting ghost bugs in front and backend. Currently in state of organization of files and building up the idea what else to include.
+  content: `here is an example code that is being used to export this example readme file in the fist place. 
+        
+        
+        const v_scrolls = require('v_scrolls');
 
-  We can add more parts to this section by just writting it down in basic MD format.`
+        // -> Use this as template for the generator config file.
+        const files_export_list = require('./system/config/docs_export');
+
+        // -> Run it.
+        v_scrolls.generate(files_export_list);
+
+>  You can also find the source code of this example in the \`\`\`make_docs.sample.js\`\`\` file.
+  `
 };

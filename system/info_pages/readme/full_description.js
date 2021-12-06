@@ -1,7 +1,7 @@
 module.exports = {
   icon: "🌀",
   title: "Additional Description Info",
-  content: `Made to help out hunting ghost bugs in front and backend.Made to help out hunting ghost bugs in front and backend. Currently in state of organization of files and building up the idea what else to include.
-
-  We can add more parts to this section by just writting it down in basic MD format. Currently in state of organization of files and building up the idea what else to include`
+  content: `Nothing much to say here just wanna have something that will expand the text and show-off some of the blocks it can do.
+  
+  For now it's pretty simple without many complications. Resulting in not that complicated nor helpful expanding it yet. Need few other things sorted before we get out to v1.`
 };

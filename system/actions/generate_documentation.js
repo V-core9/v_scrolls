@@ -1,5 +1,6 @@
 
 const v_fs = require('v_file_system');
+const beta_warning = require('../info_pages/helpers/beta_warning');
 const generated_notice_readme = require('../info_pages/helpers/generated_notice');
 const date = require('date-and-time');
 
@@ -30,26 +31,28 @@ const vMD = {
   },
 };
 
-const v_docs_gen = {
+const v_scrolls = {
 
   $_config: null,
 
   config($_config) {
     if ($_config === undefined) return false;
-    v_docs_gen.$_config = $_config;
+    v_scrolls.$_config = $_config;
   },
   generate: async ($_config) => {
     console.log($_config);
-    if (v_docs_gen.$_config === null) {
+    if (v_scrolls.$_config === null) {
       if ($_config === null) return false;
-      v_docs_gen.config($_config);
+      v_scrolls.config($_config);
     }
 
-    console.log(v_docs_gen);
-    v_docs_gen.$_config.forEach(async (fileDoc) => {
+    console.log(v_scrolls);
+    v_scrolls.$_config.forEach(async (fileDoc) => {
       var file_content = "";
 
-      file_content += `${vMD.h1(vMD.bold(fileDoc.scroll_title))} \n\n> **Description**: _${fileDoc.scroll_info}_  \n#   \n`;
+      file_content += `${vMD.h1(vMD.bold(fileDoc.scroll_title))} \n\n **Description**: _${fileDoc.scroll_info}_  \n  \n`;
+
+      file_content += `${beta_warning.title} \n`;
 
       fileDoc.layout.forEach(section => {
         file_content += `${vMD.h2(vMD.bold((typeof section.icon !== "undefined") ? section.icon + " " + section.title : section.title))}\n${section.content}    \n\n`;
@@ -70,4 +73,4 @@ const v_docs_gen = {
 };
 
 
-module.exports = v_docs_gen;
+module.exports = v_scrolls;

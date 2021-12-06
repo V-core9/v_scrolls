@@ -12,12 +12,12 @@ const main_readme_template = {
   scroll_info: "Basically generates MD files...so a Markdown generator...pack data where ever you want and just use this to organize it how file will be printed.",
     layout: [
         short_description,
-        folder_structure,
         install_process,
         how_to_use_it,
         full_description,
-        advanced_usage,
-        development
+        development,
+        folder_structure,
+        advanced_usage
     ],
     output: "./"
 };

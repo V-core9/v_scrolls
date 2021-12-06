@@ -1,6 +1,5 @@
-const generated_notice_readme = {
-  title: ">### 🚧 **WARNING: APPLICATION STILL IN 🧱 [ALPHA] **  🚧",
-  content: `> ⛔ Any Edits Done To Generated Files Will Be Overwritten Next Time These Files Get Re-Generated!  \n>  \n> _Made 💖 using [V_Scrolls_Generator]("#")_    `
+const beta_warning = {
+  title: ">---  \n>### 🚧 **WARNING: APPLICATION STILL IN 🧱 [ALPHA] **  🚧  \n>---  ",
 };
 
-module.exports = generated_notice_readme;
+module.exports = beta_warning;
