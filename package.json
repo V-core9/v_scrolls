@@ -1,6 +1,6 @@
 {
   "name": "v_scrolls",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Readme / Documentation Generator. Export multiple files based on list of items to generate (md files for now only).",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,19 @@
     "type": "git",
     "url": "git+https://github.com/V-core9/v_scrolls.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "readme",
+    "documentation",
+    "generator",
+    "md",
+    "markdown",
+    "md_generator",
+    "md_readme",
+    "md_readme_generator",
+    "v-core9"
+  ],
+  "author": "V-core9",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/V-core9/v_scrolls/issues"
   },
